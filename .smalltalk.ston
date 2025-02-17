@@ -1,0 +1,15 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'RobinHoodCollections',
+      #directory : 'src',
+      #platforms : [ #pharo ]
+    }
+  ],
+  #testing : {
+    #coverage : {
+      #packages : [ 'Collections-RobinHood' ],
+      #format : #lcov
+    }
+  }
+}
